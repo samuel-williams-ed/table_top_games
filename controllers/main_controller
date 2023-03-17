@@ -1,5 +1,5 @@
-from node_modules.flask import render_template, redirect, request
-from node_modules.flask import Blueprint
+from flask import render_template, redirect, request
+from flask import Blueprint
 
 # models
 # from models.inventory_holding import Inventory_holding

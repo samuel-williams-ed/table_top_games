@@ -1,6 +1,6 @@
-from node_modules.flask import Flask, render_template
+from flask import Flask, render_template
 
-from .controllers import home_blueprint
+from controllers import home_blueprint
 
 app = Flask(__name__)
 
