@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: ivory;
+    margin: 2vw;
+}
+
+div {
+    margin: 1vw;
+    padding: 2vw;
+}
+
+.border {
+    border: 0.5vw solid blue;
+    border-radius: 0.5vw;
+}
+
+.menu_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+}
+.menu_button {
+    background-color: rgba(137, 43, 226, 0.699);
+    margin: 0px;
+    color: black;
+}
+.menu_button_border{
+    padding: 1vw;
+    border: 0.5vw dashed rgba(137, 43, 226, 0.699);
+    margin: 1vw;
+    transition: 0.4s margin, 0.4s padding;
+}
+.menu_button_border:hover {
+    padding: 0px;
+    margin: 2vw;
+    transition: 0.4s margin, 0.4s padding;
+}
+

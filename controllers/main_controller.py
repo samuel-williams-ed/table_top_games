@@ -13,5 +13,13 @@ home_blueprint = Blueprint("shops", __name__)
 
 @home_blueprint.route("/")
 def home():
-    return render_template("/home.html")
+    return render_template("index.html")
+
+@home_blueprint.route("/test/scenario_test")
+def testPage():
+    return render_template("test/scenario_test.html")
+
+@home_blueprint.route("/Codex_Eldar")
+def codex():
+    return render_template("eldar/codex.html")
 

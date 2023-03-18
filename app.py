@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 
-from controllers import home_blueprint
+from controllers.main_controller import home_blueprint
+
 
 app = Flask(__name__)
 
