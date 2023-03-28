@@ -37,3 +37,8 @@ div {
     transition: 0.4s margin, 0.4s padding;
 }
 
+.force-organisation-container{
+    margin: 1vw;
+    padding: 1vw;
+    border: 0.5vw dashed purple;
+}
