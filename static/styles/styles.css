@@ -42,3 +42,19 @@ div {
     padding: 1vw;
     border: 0.5vw dashed purple;
 }
+
+.image-container {
+    overflow: hidden;
+}
+
+.codex-entry-profile-pic{
+    height: 6vh;
+    width: 6vw;
+}
+
+img{
+    object-position: center;
+    object-fit: cover;
+    max-height: 100%;
+    width: auto;
+}
