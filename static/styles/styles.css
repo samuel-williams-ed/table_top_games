@@ -8,6 +8,9 @@ div {
     margin: 1vw;
     padding: 2vw;
 }
+a {
+    color: ivory;
+}
 
 .border {
     border: 0.5vw solid blue;
