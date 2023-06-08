@@ -11,7 +11,7 @@ app.register_blueprint(home_blueprint)
 def home():
     return render_template('index.html')
 
-@app.route('/currentBuild')
+@app.route('/current_build')
 def currentBuild():
     return render_template('currentBuild.html')
 
