@@ -3,7 +3,7 @@ Build army lists for races of the 40k universe.
 
 Build using Flask, Python and node package manager. 
 
-#To run at home:
+## To run at home:
 1. install npm (node package manager) 
 2. Ensure Python3 is installed on your machine
 3. clone the git repository
