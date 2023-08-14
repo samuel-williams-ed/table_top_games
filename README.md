@@ -1,7 +1,7 @@
 # table_top_games
 Create and edit faction lists for games set in the 40k universe. 
 
-A full-stack, web-based app designed using RESTful API principles. Build using Flask, Python and node package manager. 
+A full-stack, web-based app designed using RESTful API principles. Built using Flask, Python and node package manager. 
 
 ## To run at home:
 1. Install npm (node package manager) 
